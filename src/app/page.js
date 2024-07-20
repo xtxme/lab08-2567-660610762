@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import TaskInput from "./components/TaskInput";
 
 export default function Home() {
   return (
@@ -7,18 +8,11 @@ export default function Home() {
     <div className="container mx-auto">
       {/*header section */}
       <Header />
-
-
       {/* tasks container */}
       <div style={{ maxWidth: "400px" }} className="mx-auto">
         {/* task input */}
-        <div className="d-flex gap-1">
-          <input
-            className="form-control"
-            placeholder="Insert a task here.."
-          ></input>
-          <button className="btn btn-primary">Add</button>
-        </div>
+        <TaskInput/>
+        
         {/* task */}
         <div className="d-flex p-3 gap-2 align-items-center border-bottom">
           <span>Read a book</span>
