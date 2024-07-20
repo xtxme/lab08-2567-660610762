@@ -6,7 +6,7 @@
 
 ชื่อ-สกุล : นางสาวธนพร ตั้งผดุงสุข
 
-Vercel URL : lab08-2567-660610762.vercel.app
+Vercel URL :  https://lab08-2567-660610762.vercel.app
 
 ---
 

@@ -18,7 +18,7 @@ export default function Home() {
       {/* tasks container */}
       <div style={{ maxWidth: "400px" }} className="mx-auto">
         {/* task input */}
-        <TaskInput/>
+        <TaskInput />
         {/* task */}
         <Task {...tasks[0]}/>
         {/* task */}
